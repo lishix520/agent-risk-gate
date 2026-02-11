@@ -1,0 +1,15 @@
+{
+  "actual_impact_vector": {
+    "delta_money": 0.0,
+    "delta_time": -0.1,
+    "delta_energy": -0.1,
+    "delta_asset": -0.2,
+    "delta_reliability": -0.1,
+    "delta_identity": 0.0
+  },
+  "actual_cost": 0.45,
+  "continuity_failure": false,
+  "failure_type": null,
+  "user_visible_cost": "一次额外沟通",
+  "preventable": true
+}

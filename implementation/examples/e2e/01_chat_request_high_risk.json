@@ -1,0 +1,5 @@
+{
+  "user_id": "demo_user",
+  "message": "我刚刚误删了核心配置，可能需要强制回滚，风险很高。",
+  "idempotency_key": "demo-chat-high-risk-001"
+}

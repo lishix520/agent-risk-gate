@@ -1,0 +1,5 @@
+{
+  "user_id": "demo_user",
+  "message": "请给我一个低风险的下一步动作建议。",
+  "idempotency_key": "demo-chat-normal-001"
+}
