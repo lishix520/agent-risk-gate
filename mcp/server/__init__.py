@@ -1,1 +1,0 @@
-"""Continuity MCP adapter package."""

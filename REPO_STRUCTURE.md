@@ -20,9 +20,6 @@ continuity-kernel/
   - sql/
   - scripts/
   - examples/
-- mcp/
-  - server/
-  - client_configs/
 - tests/
 - .github/
   - ISSUE_TEMPLATE/
