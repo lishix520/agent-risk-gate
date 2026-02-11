@@ -1,42 +1,18 @@
 # Continuity Kernel
 
-AI Compliance & Risk Gating + Cost-Aware Agent Kernel
+A practical risk‑gating layer for agents that keeps work on track when stakes are real.
 
-A continuity-first runtime for agent systems. It optimizes collaboration stability under real-world constraints, not just completion rates.
+## Why try it
+- Stop costly missteps: high‑risk actions require explicit confirmation.
+- Fewer dead‑ends: avoid repeating failed paths with reusable SuccessPath procedures.
+- Less friction: low‑intervention reality checks prevent “plan drift” without nagging.
 
-## What This Is
-- Risk-gated runtime with low-intervention reality checks
-- Minimal long-term objects: `Shell` and `SuccessPath`
-- MCP adapter for Claude Code, Codex, and other MCP hosts
+## What you get
+- A ready‑to‑use API that adds guardrails to any agent workflow.
+- Minimal, stable memory: `Shell` for interface, `SuccessPath` for proven procedures.
+- MCP adapter for Claude Code, Codex, and other MCP‑compatible hosts.
 
-## What This Is Not
-- A generic “memory product”
-- A chat bot optimized for engagement
-
-## Core Principles
-1. Continuity is invariant, not an optimization target.
-2. Reality is the decision boundary, not historical shell.
-3. User instruction is respected within continuity + reality constraints.
-4. No forced persuasion; only low-intervention hints unless high risk.
-
-## Quick Start
-```bash
-cp .env.example .env
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-make db-up
-make run
-```
-
-## MCP Adapter
-```bash
-export CONTINUITY_API_BASE_URL=http://127.0.0.1:8000
-make run-mcp
-```
-
-## Repo Layout
-See `REPO_STRUCTURE.md`.
-
-## License
-MIT (recommended for maximum adoption).
+## Ideal for
+- Teams running real operations where errors cost money or time.
+- Builders who want predictable, auditable agent behavior.
+- Long‑running collaborations that need continuity, not just answers.
