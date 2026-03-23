@@ -4,9 +4,9 @@ continuity-kernel/
 - README.md
 - LICENSE
 - CONTRIBUTING.md
-- CODE_OF_CONDUCT.md
-- SECURITY.md
 - docs/
+  - position-paper.md
+  - terms.md
   - protocol/continuity.md
   - protocol/reality-first.md
   - protocol/l4-gate.md
