@@ -1,6 +1,6 @@
 # Repo Structure
 
-continuity-kernel/
+agent-memory-formation/
 - README.md
 - LICENSE
 - CONTRIBUTING.md

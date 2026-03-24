@@ -1,6 +1,6 @@
-# Continuity Kernel
+# Agent Memory Formation
 
-Continuity Kernel is an exploration of memory beyond storage.
+How experience becomes reusable structure in agent systems.
 
 Most agent memory systems solve `Layer 1`: persistence, retrieval, summaries, and profile recall. This project focuses on `Layer 2`: how experience becomes reusable structure, how that structure rigidifies, and when it should be rebuilt.
 
